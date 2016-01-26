@@ -1,0 +1,38 @@
+/*****************************/
+/* Style by RedCapeMedia, LLC*/
+/* January 11, 2016 (v1.1) */
+/*****************************/
+
+body{ background-color:#272822; min-width: 768px; margin:0; padding:0;}
+
+h1{ font-size: 30px; font-weight: bold; line-height: 32px; color:#fff; font-family: helvetica, arial; padding:0px;}
+h3{ font-size: 22px; font-weight: bold; line-height: 26px; color:#fff; font-family: helvetica, arial;}
+h4{ font-size: 18px; font-weight: bold; line-height: 22px; color:#FFCC33; font-family: helvetica, arial; margin:0; padding:0px 0px 5px 0px;}
+h5{ font-size: 12px; font-weight: normal; line-height: 14px; color:#fff; font-family: helvetica, arial; font-style: italic; margin-top:-10px;}
+a{ font-family: helvetica, arial;}
+a:hover{ text-decoration: underline; color:#ef342b;}
+
+#container{margin:0 auto; max-width: 1100px;}
+#left{ float:left; width:24%; padding:3%; margin:0px; position:fixed; float:left;}
+#right{ float:right; right:0; width:64%; padding:0%;}
+
+/********* Styles **********/
+
+.nav-fixed{ background-color:#ef342b; padding:10px 30px 20px 30px;}
+.nav-fixed a.on{ padding:10px 0px 5px 0px; clear: both; float:left; text-decoration: none; font-size: 16px; line-height:20px; font-weight: normal; color:#fff; }
+.nav-fixed a.off{ padding:10px 0px 5px 0px; clear: both; float:left; color:#fff; text-decoration: none; font-weight: bold;}
+.nav-fixed p{ color:#fff; font-family:helvetica, arial; padding:0; margin:0; line-height:18px; font-size: 14px;}
+
+.main-content{ padding:0px 0px 0px 10px; margin:0px; text-align: left;}
+.main-content p{ font-family: helvetica, arial; font-size: 14px; line-height: 22px; color:#fff;}
+.main-content img{padding:30px; clear:both;}
+
+@media all and (max-width: 768px;) {
+   #left { width: 100%; padding:0;}
+   #right { width: 100%; padding:200px 30px 30px 30px; border-top: 1px solid #ffffff;}
+ }
+
+@media all and (max-width: 400px){
+	#left{ width: 100%; padding:0;}
+	#right {width: 100%; padding-top:300px;}
+	}

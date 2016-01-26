@@ -1,0 +1,97 @@
+/*****************************/
+/* Style by RedCapeMedia, LLC*/
+/* January 11, 2016 (v1.1) */
+/*****************************/
+
+
+body{ 
+	background-color:#F9F9F9;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	min-width: 320px;
+}
+
+h1{
+	font-size:40px;
+	font-weight:bold;
+	line-height: 44px;
+	color:#696969;
+	margin:20px;
+}
+
+p{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	color:#696969;
+	margin:20px;
+}
+
+ul{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 22px;
+	color:#696969;
+	margin:20px 40px 20px 20px;
+}
+
+li{
+	margin:5px;
+}
+
+.container{
+	margin:0px auto;
+	padding:0px;
+	text-align: left;
+}
+
+.topRow{
+	margin:0 auto;
+	width:100%;
+	background-color: #FFF;
+	height:200px;
+	clear:both;
+}
+
+.bottomRow{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+}
+
+.mastHead{
+	max-width: 960px;
+	margin:0px auto;
+}
+
+.mastlogo{
+	float:left; width:200px; padding:0px;
+}
+
+.mastnav{
+	margin:0px;
+	float:left;
+
+}
+
+.mastnav a{
+	margin:10px;
+	font-family: helvetica;
+	font-size: 18px;
+	color:#333;
+}
+
+
+.content{
+	max-width: 960px;
+	margin:0px auto;
+	height:100%;	
+}
+
+.footer{
+	font-size:11px;
+	color:#999;
+	margin:30px 10px 30px 10px;
+}
